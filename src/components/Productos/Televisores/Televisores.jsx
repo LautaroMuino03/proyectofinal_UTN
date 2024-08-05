@@ -29,7 +29,7 @@ function Televisores() {
           <Card key={televisores.id} className='carta' style={{ width: '18rem' }}>
           <Card.Img variant="top" src={televisores.img} />
           <Card.Body>
-            <Card.Title>{televisores.title}</Card.Title> 
+            <Card.Title className='titulo-card'>{televisores.title}</Card.Title> 
             <Card.Text>
               {televisores.price}USD
             </Card.Text>

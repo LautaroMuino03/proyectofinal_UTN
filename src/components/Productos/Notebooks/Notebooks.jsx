@@ -27,7 +27,7 @@ function Notebooks() {
           <Card key={notebooks.id} className='carta' style={{ width: '18rem' }}>
           <Card.Img variant="top" src={notebooks.img} />
           <Card.Body>
-            <Card.Title>{notebooks.title}</Card.Title> 
+            <Card.Title className='titulo-card'>{notebooks.title}</Card.Title> 
             <Card.Text>
               {notebooks.price}USD
             </Card.Text>

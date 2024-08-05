@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 import CartContext from '../CartContext/CartContext';
 
 function Navegacion() {
-  const { count, cartItems, removeFromCart } = useContext(CartContext); // el UseContext se utiliza para acceder a los valores del contexto que se pasan como propiedad 
+  const { count, cartItems, removeFromCart } = useContext(CartContext); // el UseContext se utiliza para acceder a los valores del contexto han sido pasados.
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false); // función para cerrar la ventana correspondiente
+  const handleShow = () => setShow(true); // funcion que permite mostrar una ventana 
 
   return (
     <>
@@ -71,24 +71,25 @@ function Navegacion() {
       </header>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Carrito de Compras</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          {cartItems.length === 0 ? (
-            <p>El carrito está vacío.</p>
-          ) : (
-            <ul>
-              {cartItems.map((item, index) => (
-                <li key={index} className="d-flex justify-content-between align-items-center">
-                  <span>{item.title} - {item.price} USD</span>
-                  <Button variant="dark" onClick={() => removeFromCart(item)}>Eliminar</Button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </Modal.Body>
-      </Modal>
+  <Modal.Header closeButton>
+    <Modal.Title>Carrito de Compras</Modal.Title>
+  </Modal.Header>
+  <Modal.Body>
+    {cartItems.length === 0 ? (
+      <p>El carrito está vacío.</p>
+    ) : (
+      <ul>
+        {cartItems.map((item, index) => (
+          // key={item.id} porque cada producto tiene su id unico para poder identificarlos
+          <li key={index} className="d-flex justify-content-between align-items-center"> 
+            <span>{item.title} - {item.price} USD</span>
+            <Button variant="dark" onClick={() => removeFromCart(item)}>Eliminar</Button>
+          </li>
+        ))}
+      </ul>
+    )}
+  </Modal.Body>
+</Modal>
     </>
   );
 }

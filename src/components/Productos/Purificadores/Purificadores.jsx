@@ -28,7 +28,7 @@ function Purificadores() {
           <Card key={purificadores.id} className='carta' style={{ width: '18rem' }}>
           <Card.Img variant="top" src={purificadores.img} />
           <Card.Body>
-            <Card.Title>{purificadores.title}</Card.Title> 
+            <Card.Title className='titulo-card'>{purificadores.title}</Card.Title> 
             <Card.Text>
             {purificadores.originalPrice !== purificadores.price && (
                     <span className="precio-original">{purificadores.originalPrice}USD </span>

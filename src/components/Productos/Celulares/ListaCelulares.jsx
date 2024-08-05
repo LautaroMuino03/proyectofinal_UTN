@@ -8,7 +8,7 @@ const ListaCelulares = {
         id: 1,
         img: Edge40,
         title: 'Celular Motorola edge 40 neo',
-        desc: "Telefono MOTOROLA Edge 40 NEO 8GB256GB 50MP13MP32MP 655 Verde",
+        desc: "Telefono MOTOROLA Edge 40 NEO. Memoria RAM 8GB, almacenamiento 256GB. Camara trasera principal 50MP, gran angular y macro: 13MP y frontal 32MP 655 Verde",
         originalPrice: 980,
         price: 440,
     }
@@ -16,7 +16,7 @@ const ListaCelulares = {
         id: 2,
         img: GalaxyA14,
         title: 'Celular Samsung Galaxy A14',
-        desc: "Celular SAMSUNG Galaxy A14 5G -green 66 O core 4128GB 50MP (SM-A146MLGEARO)",
+        desc: "Celular SAMSUNG Galaxy A14 5G. Camara trasera 50MP, camara frontal - resolucion 13.0 MP (SM-A146MLGEARO), Almacenamiento/Memoria: Memoria 4GB, Almacenamiento GB 128",
         originalPrice:540,
         price: 540,
     }
@@ -24,15 +24,15 @@ const ListaCelulares = {
         id: 3,
         img: GalaxyA34,
         title: 'Celular Samsung Galaxy A34',
-        desc: "Celular Samsung Galaxy A34 Sm-A346Mlgb 5G 128Gb Lime",
+        desc: "Celular Samsung Galaxy A34 5G, cámara frontal 13MP, memoria RAM 4GB, memoria interna 128Gb Lime",
         originalPrice: 760,
         price: 380,
     }
     ,{
         id: 4,
         img: motorolaG32,
-        title: 'Celular Motorola G32',
-        desc: "Celular Motorola G32 128gb + 6gb Ram 50mp Gris",
+        title: 'Celular Motorola G32 negro',
+        desc: "Celular Motorola G32, memoria interna 128gb, memoria RAM 6GB, cámara trasera 50MP, cámara frontal 16MP",
         originalPrice: 500,
         price: 500,
     }

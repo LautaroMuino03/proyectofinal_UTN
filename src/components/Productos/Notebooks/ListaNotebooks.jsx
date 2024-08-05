@@ -22,14 +22,14 @@ import T14S from '../../../assets/T14S.webp';
         id: 7,
         img: LP1,
         title: 'Lenovo LP1',
-        desc: "Cloudbook Lenovo Ip 1 14Igl05 Celeron N4120 4Gb 128Gb 14 W11H",
+        desc: "Cloudbook Lenovo Ip 1 14Igl05 Celeron N4120 4GB, 128GB 14 W11H",
         price: 380,
     }
     ,{
         id: 8,
         img: T14S,
         title: 'Thinkpad T14S',
-        desc: "Notebook 14 LENOVO Thinkpad L14 GEN2 i5-1135G7 8GB SSD 256GB HD WINDOWS 10 PRO",
+        desc: "Notebook 14 LENOVO Thinkpad L14 GEN2 i5-1135G7, 8GB, SSD 256GB, HD WINDOWS 10 PRO",
         price: 920,
     }
     ]

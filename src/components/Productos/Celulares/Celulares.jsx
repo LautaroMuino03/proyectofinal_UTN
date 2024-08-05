@@ -6,11 +6,12 @@ import CartContext from '../../CartContext/CartContext';
 import ListaCelulares from './ListaCelulares'
 
 function Celulares() {
-  const { addToCart } = useContext(CartContext); // Permite poder agrgar productos al carrito
-  const [selectedCelularId, setSelectedCelularId] = useState(false); 
+  const { addToCart } = useContext(CartContext); // Permite poder agregar productos al carrito
+  const [selectedCelularId, setSelectedCelularId] = useState(false); // selectedCelularId muestra el valor del estado actual y setSelectedCelularId muestra el valor del estado actualizado, se encuentra en false porque no hay ningun celular seleccionado
 
   const handleClickEnInformacion = (id) => {
-    if (selectedCelularId === id) {
+    // verifica si el celular seleccionado es igual al id.
+    if (selectedCelularId === id)  {
       setSelectedCelularId(false);
     } else {
       setSelectedCelularId(id);
@@ -25,7 +26,7 @@ function Celulares() {
             <Card key={celular.id} className='carta' style={{ width: '18rem' }}>
               <Card.Img variant="top" src={celular.img} />
               <Card.Body>
-                <Card.Title>{celular.title}</Card.Title> 
+                <Card.Title className='titulo-card'>{celular.title}</Card.Title> 
                 <Card.Text>
                   {celular.originalPrice !== celular.price && (
                     <span className="precio-original">{celular.originalPrice}USD </span>

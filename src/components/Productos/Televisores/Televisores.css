@@ -35,4 +35,12 @@
 }
 
 
-
+@media (min-width:374px) and (max-width: 991px){
+  .titulo-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 25px;
+  }
+}

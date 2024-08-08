@@ -34,7 +34,7 @@ right: 92px;
 bottom: 20px;
 cursor: pointer;
 }
-;
+
 
 
 #input{
@@ -83,11 +83,11 @@ font-style: normal;
 
 @media (min-width: 992px){
     .titulo{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .carro{
         position: absolute;
-        top: 10px;
+        top: 22px;
     }
     .cart-counter{
         position: absolute;

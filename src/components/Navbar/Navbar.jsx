@@ -24,7 +24,7 @@ function Navegacion() {
             <Navbar.Brand className="mx-auto">
               <div className="d-flex justify-content-center align-items-center">
                 <img className='imagen' src={logo} alt="logo" />
-                <h2 className='titulo'>TecnoHogar</h2>
+                <h2 className='titulo'>TecShop.</h2>
               </div>
               <img className='carro' src={carro} alt="carro" onClick={handleShow} style={{ cursor: 'pointer' }} />
               <div className="cart-counter" onClick={handleShow} style={{ cursor: 'pointer' }}>
@@ -37,7 +37,7 @@ function Navegacion() {
               placement="start"
             >
               <Offcanvas.Header className='hamburguer' closeButton>
-                <Offcanvas.Title className='titulo' id="offcanvasNavbarLabel">TecnoHogar</Offcanvas.Title>
+                <Offcanvas.Title className='titulo' id="offcanvasNavbarLabel">TecShop</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className='hamburguer'>
                 <Nav className="justify-content-end flex-grow-1 pe-3">

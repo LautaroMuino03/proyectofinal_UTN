@@ -83,11 +83,11 @@ font-style: normal;
 
 @media (min-width: 992px){
     .titulo{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .carro{
         position: absolute;
-        top: 22px;
+        top: 10px;
     }
     .cart-counter{
         position: absolute;

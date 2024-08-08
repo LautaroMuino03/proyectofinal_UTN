@@ -21,9 +21,9 @@ function Contacto() {
           </a>
         </li>
         <li>
-          <a href="mailto:Tecaltoavellaneda@gmail.com">
+          <a href="mailto:Tecnoaltoavellaneda@gmail.com">
             <img className="imagenes-contacto" src={mail} alt="" />
-            Tecaltoavellaneda@gmail.com
+            Tecnoaltoavellaneda@gmail.com
           </a>
         </li>
       </ul>
